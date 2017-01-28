@@ -1,10 +1,6 @@
-// your server will live here
+let express = require('express');
 
-// import the 3rd party connect module and
-// assign it as a reference to the connect variable
-let connect = require('express');
-
-// create an instance of the connect server - app
+// create an instance of the express server - app
 let app = express();
 
 // create the port constant
@@ -13,9 +9,8 @@ const port = 3000;
 /**
  * Get port from environment and store in Express.
  */
-let port = process.env.PORT || localport;
-app.set('port', port);
-
+//let port = process.env.PORT || localport;
+//app.set('port', port);
 
 // start listening on the port
 app.listen(port);
@@ -38,5 +33,3 @@ app.use('/', (req, res, next) => {
 
   next();
 });
-
-

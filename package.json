@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2017-lesson2b",
+  "name": "comp308-w2017-lesson3b",
   "version": "1.0.0",
   "description": "Demo Connect App for Lesson 2",
   "main": "server.js",
@@ -9,11 +9,11 @@
   },
   "engines": {
     "node": ">6.0.0",
-    "npm" : ">3.5.0"
+    "npm": ">3.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CentennialCollege/COMP308-W2017-Lesson2B.git"
+    "url": "git+https://github.com/CentennialCollege/COMP308-W2017-Lesson3B.git"
   },
   "keywords": [
     "NodeJS",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/CentennialCollege/COMP308-W2017-Lesson2B#readme",
   "dependencies": {
-    "connect": "^3.5.0"
+    "connect": "^3.5.0",
+    "express": "^4.14.0"
   }
 }
